@@ -1,0 +1,23 @@
+{
+    "name": "pedro/inforgeneses",
+    "descreption": "inforgeneses",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "files": [
+            "app/helpers/constants.php",
+            "app/helpers/redirect.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Pedro Santiago",
+            "email": "joaopedrosantiago1103@gmail.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.15",
+        "ext-pdo": "*"
+    }
+}
